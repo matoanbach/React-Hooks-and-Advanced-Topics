@@ -1,5 +1,9 @@
 const ErrorExample = () => {
-  return <h2>useState error example</h2>;
+  return (
+    <div>
+      <a>Error example</a>
+    </div>
+  );
 };
 
 export default ErrorExample;
