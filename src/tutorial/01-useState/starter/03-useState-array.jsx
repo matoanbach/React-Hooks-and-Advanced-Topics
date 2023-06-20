@@ -19,7 +19,7 @@ function UseStateArray(){
           return (
             <div key={id} className='item'>
             <h4>{name}</h4>
-            <button onClick={() => removeItem(id)}>remove</button>
+            <button className="btn" onClick={() => removeItem(id)}>remove</button>
           </div>
           );
         })
