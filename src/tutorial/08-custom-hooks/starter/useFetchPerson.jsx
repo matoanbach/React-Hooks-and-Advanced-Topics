@@ -1,7 +1,5 @@
 import { useEffect, useState } from "react";
 
-import React from "react";
-
 function useFetchPerson(url) {
   const [isLoading, setIsLoading] = useState(true);
   const [isError, setIsError] = useState(false);

@@ -1,5 +1,4 @@
-import { useEffect, useState } from 'react';
-import useFetchPerson from './useFetchPerson';
+import useFetch from "./useFetch";
 const url = 'https://api.github.com/users/QuincyLarson';
 
 const FetchData = () => {
