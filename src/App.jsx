@@ -1,6 +1,5 @@
 import Final from './tutorial/09-context-api/final/prop-drilling/Navbar';
-import Starter from './tutorial/10-useReducer/starter/01-useReducer.jsx';
-
+import Starter from './tutorial/11-performance/starter/04-react-18';
 
 function App() {
   return (
